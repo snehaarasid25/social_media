@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useAlert } from "react-alert";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import {Helmet} from "react-helmet";
+// import {Helmet} from "react-helmet";
  
 import {
   followAndUnfollowUser,
@@ -89,7 +89,7 @@ const UserProfile = () => {
     <Loader />
   ) : (
     <div className="account">
-      <Helmet><title>profile</title></Helmet>
+      {/* <Helmet><title>profile</title></Helmet> */}
       <div className="accountleft">
         {posts && posts.length > 0 ? (
           posts.map((post) => (
