@@ -1,5 +1,6 @@
 /node_modules
 config/config.env
+/backend/config/config.env
 /frontend/node_modules
 /frontend/.pnp
 /frontend/.pnp.js
